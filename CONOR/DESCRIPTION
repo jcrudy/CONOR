@@ -1,0 +1,11 @@
+Package: CONOR
+Type: Package
+Title: CONOR
+Version: 1.0.2
+Date: 2010-11-06
+Author: Jason Rudy and Faramarz Valafar
+Maintainer: "Jason Rudy" <jcrudy@gmail.com>
+Description: CrOss-platform NOrmalization in R: normalize gene expression data to be comparable for different microarray platforms.
+Depends: CLSOCP, tseries, outliers, nortest, quadprog, zoo, preprocessCore, fields, fpc, flexclust, plyr, CONORData
+License: GPL-2
+LazyLoad: yes

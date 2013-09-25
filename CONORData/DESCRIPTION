@@ -1,0 +1,11 @@
+Package: CONORData
+Type: Package
+Title: CONORData
+Version: 1.0.2
+Date: 2010-11-06
+Author: Jason Rudy and Faramarz Valafar
+Maintainer: "Jason Rudy" <jcrudy@gmail.com>
+Description: Example Data for Package CONOR
+Depends: CLSOCP, tseries, outliers, nortest, quadprog, zoo, preprocessCore, fields, fpc, flexclust, plyr
+License: GPL-2
+LazyLoad: yes

@@ -1,0 +1,2 @@
+export("xpn", "dwd", "eb", "gq", "qn", "qd", "mrs", "nordi", "distran")
+useDynLib(CONOR,ckmeans_c,XPN_MLE_C_C)
