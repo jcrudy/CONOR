@@ -118,7 +118,7 @@ double manhattan(double *x, double *cen, int p, int i, int j, int n, int k){
 	int c;
 	for(c = 0; c < p; c++) {
 
-	    dd += abs(x[i+n*c] - cen[j+k*c]);
+	    dd += fabs(x[i+n*c] - cen[j+k*c]);
 	}
 	return(dd);
 }
@@ -126,6 +126,6 @@ double manhattan(double *x, double *cen, int p, int i, int j, int n, int k){
 
 double absolutepearson(double *x, double *cen, int p, int i, int j, int n, int k){
 	
-	return(abs(pearson(x,cen,p, i, j, n, k)));
+	return(fabs(pearson(x,cen,p, i, j, n, k)));
 
 }
