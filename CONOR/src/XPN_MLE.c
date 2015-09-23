@@ -87,7 +87,7 @@ void XPN_MLE_C_C(double *xbar, double *A, double *b, double *c, double *s2, doub
 		}
 		
 		if (sumb < 0) {
-			for(i=1;i<I;i++){
+			for(i=0;i<I;i++){
 				b[i] = -1*b[i];
 			}
 			sumb = -1*sumb;
